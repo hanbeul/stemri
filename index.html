@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" integrity="sha256-dMQYvN6BU9M4mHK94P22cZ4dPGTSGOVP41yVXvXatws=" crossorigin="anonymous" />
+    <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section class="hero is-primary is-large" style="background-image: url('http://stemri.com/ap/wp-content/uploads/2018/10/s1.jpg'); background-size: cover;">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Home
+                </a>
+                <a class="navbar-item">
+                  Examples
+                </a>
+                <a class="navbar-item">
+                  Documentation
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Download</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-left" >
+          <h1 class="title">
+            Title
+          </h1>
+          <h2 class="subtitle">
+            Subtitle
+          </h2>
+        </div>
+      </div>
+
+      <!-- Hero footer: will stick at the bottom -->
+      <div class="hero-foot">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a>Overview</a></li>
+              <li><a>Modifiers</a></li>
+              <li><a>Grid</a></li>
+              <li><a>Elements</a></li>
+              <li><a>Components</a></li>
+              <li><a>Layout</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+
+    <section class="section">
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">...tiles</p>
+                <p class="subtitle">Bottom tile</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-info">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Tall tile</p>
+              <p class="subtitle">With even more content</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div id="tab-box" class="container box">
+        <div class="columns">
+          <div class="column is-4">
+            <img src="assets/1.jpg" class="image is-square">
+            <img src="assets/2.jpg" class="image is-4by5 img-hidden">
+            <img src="assets/3.jpg" class="image is-4by5 img-hidden">
+            <img src="assets/4.jpg" class="image is-4by5 img-hidden">
+          </div>
+          <div class="column">
+            <div class="tabs is-left is-boxed column">
+              <ul>
+                <li class="is-active">
+                  <a>
+                    <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
+                    <span>Pictures</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
+                    <span>Music</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon is-small"><i class="fas fa-film" aria-hidden="true"></i></span>
+                    <span>Videos</span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
+                    <span>Documents</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+      </div>
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
