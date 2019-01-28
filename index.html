@@ -2,12 +2,12 @@
 <html lang="en">
 
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css" integrity="sha256-dMQYvN6BU9M4mHK94P22cZ4dPGTSGOVP41yVXvXatws=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css" />
     <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body class="has-background-light">
     <section class="hero is-primary is-large" style="background-image: url('http://stemri.com/ap/wp-content/uploads/2018/10/s1.jpg'); background-size: cover;">
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
@@ -51,16 +51,19 @@
       <!-- Hero content: will be in the middle -->
       <div class="hero-body">
         <div class="container has-text-left" >
-          <h1 class="title is-size-1">
-            Title
-          </h1>
-          <h2 class="subtitle is-size-3">
-            Subtitle
-          </h2>
+          <div class="" style="margin-top: -10rem; ">
+            <h1 class="title is-size-1">
+              Stemri
+            </h1>
+            <h2 class="subtitle is-size-2">
+              A bunch of korean text here
+            </h2>
+          </div>
         </div>
       </div>
 
       <!-- Hero footer: will stick at the bottom -->
+      <!--
       <div class="hero-foot">
         <nav class="tabs">
           <div class="container">
@@ -75,12 +78,13 @@
           </div>
         </nav>
       </div>
+      -->
     </section>
 
 
-    <section class="section">
+    <section class="section container">
 
-      <nav class="level">
+      <nav class="level box" style="margin-top: -100px;">
         <div class="level-item has-text-centered">
           <div>
             <figure class="container image is-128x128">
@@ -116,10 +120,18 @@
             <p class="title">Activities</p>
           </div>
         </div>
-
       </nav>
 
-      <div class="tile is-ancestor">
+      <div class="columns">
+        <div class="column">
+          <iframe width="100%" height="400px" src="https://www.youtube.com/embed/pPtV1-Y7pZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="column" style="">
+          <p class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor" style="padding-top: 1.5rem; ">
         <div class="tile is-vertical is-8">
           <div class="tile">
             <div class="tile is-parent is-vertical">
@@ -167,7 +179,7 @@
 
       <div id="tab-box" class="box">
         <div class="columns">
-          <div class="column is-4" style="height: 500px; overflow: hidden">
+          <div class="column is-4" style="height: 600px; overflow: hidden">
             <img src="assets/1.jpg" class="image img-fill">
             <img src="assets/2.jpg" class="image img-fill img-hidden">
             <img src="assets/3.jpg" class="image img-fill img-hidden">
@@ -209,8 +221,143 @@
         </div>
       </div>
       <div class="columns">
+        <div class="column is-4 is-offset-2">
+          <div class="has-background-white">
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">15</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">15</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">25</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="column is-4">
+          <div class="has-background-white">
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">15</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">15</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="media has-background-white" style="padding: 1rem">
+              <figure class="media-left">
+                <div class="image is-96x96" style="display: flex; align-items: center; justify-content: center; border-style: solid; ">
+                  <p class="has-text-centered">
+                  <span class="is-size-2" style="margin-left: 0.5rem; ">15</span>
+                  <br />
+                  <span class="is-size-6">Nov</span>
+                  </p>
+                </div>
+              </figure>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                  <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                  <br>
+                  <small>Located at Mosaic District, Fairfax VA</small>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
       
+    </section>
+    <section id="footer" class="has-background-dark" style="height: 100px; display: flex; align-items: flex-end; ">
+      <div class="container" style="display: flex; align-items: flex-end; margin-bottom: 10px; ">
+        <p class="has-text-white">
+        Copyright All Right Reserved 2018, STEM Research Institute.
+        </p>
+      </div>
     </section>
 
     <script src="script.js"></script>
