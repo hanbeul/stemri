@@ -1,3 +1,8 @@
+body {
+  background-color: #E7F1FA; 
+}
+
+
 
 .hero-body .shift-up {
   margin-bottom: 5rem;
@@ -13,10 +18,22 @@
   object-fit: cover;
 }
 
+.fact {
+  font-size: 50px;
+  color: #03203B;
+}
+
+.fact-box {
+  margin-top: 4rem;
+}
+
+
+
 @media only screen and (min-width: 768) {
   .hero-body .shift-up {
     margin-bottom: 0rem;
     margin-top: -10rem; 
   }
 }
+
 
