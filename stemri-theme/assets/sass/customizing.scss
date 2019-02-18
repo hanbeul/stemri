@@ -69,7 +69,7 @@ a {
 
 // Navbar
 .header {
-  position: absolute;
+  //position: absolute;
   width: 100%;
 
   .navbar {
@@ -135,6 +135,10 @@ a {
       color: #0f2e69;
     }
   }
+}
+
+.columns {
+  margin-top: 2rem;
 }
 
 #steth {
