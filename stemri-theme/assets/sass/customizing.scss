@@ -62,6 +62,11 @@ a {
   font-weight: $font-weight-extra-bold;
 }
 
+.image img{
+  height: 100%;
+  object-fit: cover;
+}
+
 // Navbar
 .header {
   position: absolute;
@@ -74,12 +79,13 @@ a {
 
     &-menu {
       .navbar-item {
-        color: $black;
+        color: #0f2e69;
         font-weight: $weight-semibold;
         text-transform: uppercase;
 
         &:hover {
           background-color: transparent;
+          //color: $primary;
           color: $primary;
         }
       }
@@ -119,12 +125,43 @@ a {
     .title {
       margin-bottom: $spacing/2;
       font-weight: $font-weight-extra-bold!important;
+      font-size: 5rem; 
+      color: #0f2e69;
     }
 
     .subtitle {
       margin: $spacing 0!important;
+      font-size: 3rem; 
+      color: #0f2e69;
     }
   }
+}
+
+#steth {
+  background: #03213b;
+  h4 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+#grid {
+  .columns {
+    margin-bottom: 0rem;
+    .column.has-text-centered {
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  p {
+    color: #0f2e69;
+    font-size: 1.5rem;
+  }
+
 }
 
 .posts {
