@@ -1,15 +1,15 @@
-<header class="header">
+<header class="header has-background-light">
   <nav class="navbar">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-white is-size-4 has-text-weight-bold" href="{{@blog.url}}">
+        <a class="navbar-item is-size-4 has-text-weight-bold" href="{{@blog.url}}">
           {{#if @blog.logo}}
             <img src="{{@blog.logo}}" alt="{{@blog.title}}">
           {{else}}
             {{@blog.title}}
           {{/if}}
         </a>
-        <span role="button" tabindex="0" class="navbar-burger burger has-text-white" data-target="navbar-menu">
+        <span role="button" tabindex="0" class="navbar-burger burger" data-target="navbar-menu">
           <span></span>
           <span></span>
           <span></span>

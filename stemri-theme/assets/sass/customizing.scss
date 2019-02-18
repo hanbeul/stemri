@@ -69,11 +69,12 @@ a {
 
   .navbar {
     background: transparent;
+    background: rgba(white, 0.9);
     min-height: 4.5rem;
 
     &-menu {
       .navbar-item {
-        color: $white;
+        color: $black;
         font-weight: $weight-semibold;
         text-transform: uppercase;
 
@@ -106,6 +107,11 @@ a {
   }
 
   &-body {
+    //display: flex;
+    //flex-direction: column;
+    //align-items: flex-start;
+
+
     padding: 5rem 1.5rem;
     position: relative;
     z-index: 5;
