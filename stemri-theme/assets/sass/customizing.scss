@@ -141,13 +141,19 @@ a {
   margin-top: 2rem;
 }
 
+.section-title {
+
+}
+
 #steth {
-  background: #03213b;
   h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+  }
+  .dark-bg{
+    background: #03213b;
   }
 }
 
