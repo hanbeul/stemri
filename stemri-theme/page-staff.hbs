@@ -1,0 +1,100 @@
+{{!< default}}
+
+{{#post}}
+  {{#if feature_image}}
+    <section class="hero background-img" style="background-image: url('{{img_url feature_image}}')">
+    {{else}}
+      <section class="hero background-img" style="background-image: url('{{@blog.cover_image}}')">
+  {{/if}}
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          <!--{{@blog.title}}-->
+          미국 의대 진학 
+        </h1>
+        <h2 class="subtitle">
+          <!--{{@blog.description}}-->
+          어려운 것 만은 아니다!
+        </h2>
+      </div>
+    </div>
+  </section>
+{{/post}}
+
+
+<div class="container" style="padding-top: 1rem">
+  <div class="columns box">
+    <div class="column is-9">
+      <div class="columns is-mobile">
+        <div class="column is-one-fifth">
+          <figure class="image">
+            <img src="/assets/images/team1.jpg">
+
+
+
+          </figure>
+        </div>
+        <div class="column is-8">
+          <h1 class="title has-text-black">Paul S. Chung, Ph.D</h1>
+          <p class="subtitle is-4 title has-text-black"> CEO </p>
+          <ul>
+            <li>전 US Naval Research Lab</li>
+            <li>Adjunct Professor at Marymount University</li>
+            <li>Over 50 Publications in Science Journals</li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="columns is-mobile">
+        <div class="column is-one-fifth">
+          <figure class="image">
+            <img src="/assets/images/team2.jpg">
+          </figure>
+        </div>
+        <div class="column is-8">
+          <h1 class="title has-text-black">Y. Sahoo, Ph.D</h1>
+          <p class="subtitle is-4 title has-text-black"> Educational Program Manager </p>
+          <ul>
+            <li>전 Research Professor</li>
+            <li>the State University of New York</li>
+            <li>Over 60 Publications in Science Journals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="column">
+
+      <article class="tile is-child notification is-info">
+        <p class="title">Offices</p>
+        <span class="subtitle has-text-grey-dark">Virginia</span>
+        <p><small>8408 Arlington Blvd. #101,
+          Fairfax, VA 22031
+          <p><span>+1-703-789-4134</span></p>
+          vastemri@gmail.com</small></p>
+
+        <br>
+        <span class="subtitle has-text-grey-dark"> California </span>
+        <p><small>6301 Beach Blvd. #202,
+          Buena Park, CA 90621
+          <p><span>+1-714-400-2080</span></p>
+        </small></p>
+
+        <br>
+        <span class="subtitle has-text-grey-dark">South Korea</span>
+        <p><small>강남구 신사동 570-6
+          베드로 빌딩 702호
+          <p><span>010-3795-3599</span></p>
+        </small>
+
+        </p>
+      </article>
+    </div>
+  </div>
+</div>

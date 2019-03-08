@@ -1,0 +1,23 @@
+{{!< default}}
+
+<section class="hero background-img" style="background-image: url('{{@blog.cover_image}}')">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <!--{{@blog.title}}-->
+        미국 의대 진학 
+      </h1>
+      <h2 class="subtitle">
+        <!--{{@blog.description}}-->
+        어려운 것 만은 아니다!
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  {{#post}}
+    {{content}}
+  {{/post}}
+</section>
