@@ -1,27 +1,9 @@
 version: '3'
-
 services:
-
-  wordpress:
-    image: wordpress
-    depends_on: 
-      - mysql
+  ghost:
+    image: hanbeul/stemri
+    build: .
     ports:
-      - "127.0.0.1:8000:80"
-    restart: always
-    environment:
-      WORDPRESS_DB_PASSWORD: wordpress
-    volumes: 
-      - ./wp-content:/var/www/html/wp-content
-
-  mysql:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    ports: 
-      - "127.0.0.1:3307:3306"
-    environment:
-      MYSQL_ROOT_PASSWORD: wordpress
-      MYSQL_DATABASE: wordpress
-    volumes: 
-      - ./mysql-data:/var/lib/mysql
+      - "80:2368"
+    volumes:
+      - "./stemri-theme:/var/lib/ghost/content/themes/stemri-theme"
